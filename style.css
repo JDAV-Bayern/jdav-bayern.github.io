@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #51565d;
+  font-family: Tahoma, sans-serif;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #52ae32;
+}
+
+.container {
+  max-width: 32rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  width: 12rem;
+  margin: 1rem 0;
+}
+
+.button {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  background-color: #52ae32;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.button:hover {
+  background-color: #609e66;
+}
